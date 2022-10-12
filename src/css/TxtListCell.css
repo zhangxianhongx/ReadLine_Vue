@@ -1,0 +1,62 @@
+.txt_list_cell{
+    width: auto;
+    height: 120px;
+    /* background-color: red; */
+}
+.back_div{
+    background-color: rgba(1, 1, 1, 0.3);
+    /* opacity: 0.1; */
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: -5px;
+    padding: 0px;
+    width: auto;
+    height: 110px;
+    line-height: 110px;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: 90px auto;
+    
+}
+.logo_icon{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 70px;
+    height: 90px;
+    display: inline;
+}
+.right_div{
+    /* background-color: orange; */
+    display: grid;
+    grid-template-columns: auto;
+    /* 行高 */
+    grid-template-rows: 30px 50px 30px;
+}
+.title{
+    /* background-color: yellow; */
+    line-height: 30px;
+    text-align: left;
+    margin-right: 5px;
+    font-size: 17px;
+    color: white;
+    overflow: hidden;
+}
+.desc_div{
+    /* background-color: orchid; */
+    height: 50px;
+    line-height: 13px;
+    text-align: left;
+    overflow: hidden;
+    color:white;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.author_div{
+    /* background-color: green; */
+    line-height: 30px;
+    text-align: left;
+    color:white;
+    font-size: 10px;
+}

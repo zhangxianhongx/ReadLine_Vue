@@ -1,0 +1,40 @@
+.contentDiv {
+
+  display: grid;
+  /* 列数 */
+  grid-template-columns: 50px auto;
+    /* 行高 */
+    /* grid-template-rows: 50px 120px; */
+}
+.left_div{
+    height: 100%;
+    /* background-color: red; */
+}
+.left_content_div{
+    position: fixed;
+    width: 50px;
+    height: 85%;
+    margin-top: 50px;
+    overflow: auto;
+}
+.cell_class{
+    padding: 0px
+}
+.left_row{
+    width: auto;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+}
+.black_txt{
+    color: black;
+}
+.red_txt{
+    color: red;
+}
+.home_right_div{
+    height: 100%;
+    width: auto;
+    margin-top: 54px;
+}
